@@ -53,11 +53,11 @@ An event-based messaging API I built for [Colt Express](https://github.com/cpili
 
 # Professional Work
 
-Most of my work has been in the real-time geospatial data space. I can't provide professional code samples, but here's what I've worked on.
+Most of my professional work has been in the real-time geospatial data space. I can't provide professional code samples, but here's what I've worked on.
 
 I created initial proof-of-concepts to integrate USD (for use with NVIDIA Omniverse's platform and Unreal Engine 5) with Presagis's [VELOCITY 5D](https://www.youtube.com/watch?v=IMuxpx0cOGk) at CAE. Think something along the lines of [these third party connectors](https://docs.omniverse.nvidia.com/connect/latest/3rd-party-connectors.html). This was a C++ based role. 
 
-At the moment, I'm a part-time software developer on a research project using GIS‐enabled historiography to reconstruct and analyze historical travel routes to identify where Attila the Hun (yes, that [Attila the Hun](https://en.wikipedia.org/wiki/Attila)) might have been buried. Think something along the lines of this [paper](https://doi.org/10.1111/tgis.13056). The future goal is to present the findings as an interactive webmap and real-time simulation.
+At the moment, I'm a part-time software developer on a research project using GIS‐enabled historiography to reconstruct and analyze historical travel routes to identify where Attila the Hun (yes, that [Attila the Hun](https://en.wikipedia.org/wiki/Attila)) might have been buried. Think something along the lines of this [paper](https://doi.org/10.1111/tgis.13056). The future goal is to present the findings as an interactive webmap and real-time simulation using Unreal Engine 5.
 
 I also helped several students understand the basics of C++ as an undergraduate teaching assistant at McGill University.
 
