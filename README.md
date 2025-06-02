@@ -1,8 +1,6 @@
 
 # FIEA Portfolio, Fall 2025
 
-![Project](link)
-
 Hi there! I'm Christina. 
 
 This repository contains my programming portfolio for FIEA's application process. You'll find a selection of code samples from various projects I've worked on over the years. Below are some technical details.
