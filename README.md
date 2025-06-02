@@ -5,7 +5,7 @@ Hi there! I'm Christina.
 
 This repository contains my programming portfolio for FIEA's application process. You'll find a selection of code samples from various projects I've worked on over the years. Below are some technical details.
 
-## Raytracer
+## 1. Raytracer
 C++ (using GLM for math). Sample framework for parsing scenes, loading models, and writing to an image was provided; everything else is my own.
 
 A raytracer built as the final project for a computer graphics course. Only basic raytracing, primitive intersection testing, and anti-aliasing was required; extra credit was awarded for other additions.
@@ -14,16 +14,16 @@ A raytracer built as the final project for a computer graphics course. Only basi
 ![](raytracer/build/Release/Cat.png)
 > A scene rendered with the raytracer.
 
-## Shadowmaps
+## 2. Shadowmaps
 C++ (using GLM for math, OpenGL, and GLSL shaders). Sample framework for loading a scene with a camera and empty shader code was provided; everything else is my own.
 
 A live demo of a scene with shadowmapped lighting for a computer graphics course; implements a trackball-like control scheme for panning around, and drawing from a shadow map texture. 
 - Also implemented perceptually-correct soft shadows.
 
-![](shadowmaps/shadowmaps.mp4)
+https://github.com/user-attachments/assets/87a5f7ca-5f94-45b8-bd0b-fcc95f8565c7
 > The demo running - follow the shadows!
 
-## Pathfinding Simulation
+## 3. Pathfinding Simulation
 C# in Unity. Everything is my own.
 
 A simulation built for a computer games course showing multiple agents ("NPCs") dynamically pathfinding a navmesh using classic A* search.  
@@ -31,11 +31,12 @@ A simulation built for a computer games course showing multiple agents ("NPCs") 
 - The heuristic used for the algorithm is octile distance between nodes.
 - The ”open set” of nodes during pathfinding is optimized by using an abridged priority queue backed by a min-heap.
 
-![](pathfinding/pathfinding.mp4)
+https://github.com/user-attachments/assets/e7d19350-5be7-47e0-bfa1-651f209e0644
+
 ![](pathfinding/data.png)
 > Fun observations about the simulation's performance.
 
-## Colt Express
+## 4. Colt Express
 
 C# in Unity. Everything is my own.
 
@@ -54,9 +55,9 @@ An event-based messaging API I built for [Colt Express](https://github.com/cpili
 
 Most of my work has been in the real-time geospatial data space. I can't provide professional code samples, but here's what I've worked on.
 
-I created initial proof-of-concepts to integrate USD (for use with NVIDIA Omniverse's platform and Unreal Engine 5) with Presagis's [VELOCITY 5D](https://www.youtube.com/watch?v=IMuxpx0cOGk) at CAE. Think something along the lines of [third party connectors](https://docs.omniverse.nvidia.com/connect/latest/3rd-party-connectors.html). This was a C++ based role. 
+I created initial proof-of-concepts to integrate USD (for use with NVIDIA Omniverse's platform and Unreal Engine 5) with Presagis's [VELOCITY 5D](https://www.youtube.com/watch?v=IMuxpx0cOGk) at CAE. Think something along the lines of [these third party connectors](https://docs.omniverse.nvidia.com/connect/latest/3rd-party-connectors.html). This was a C++ based role. 
 
-At the moment, I'm a part-time software developer on a research project using GIS‐enabled historiography to reconstruct and analyze historical travel routes to identify where Attila the Hun (yes, that [Attila the Hun](https://en.wikipedia.org/wiki/Attila)) might have been buried. Think something similar to this [paper](https://doi.org/10.1111/tgis.13056). The future goal is to present the findings as an interactive webmap and real-time simulation.
+At the moment, I'm a part-time software developer on a research project using GIS‐enabled historiography to reconstruct and analyze historical travel routes to identify where Attila the Hun (yes, that [Attila the Hun](https://en.wikipedia.org/wiki/Attila)) might have been buried. Think something along the lines of this [paper](https://doi.org/10.1111/tgis.13056). The future goal is to present the findings as an interactive webmap and real-time simulation.
 
 I also helped several students understand the basics of C++ as an undergraduate teaching assistant at McGill University.
 
