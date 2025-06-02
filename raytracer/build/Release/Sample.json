@@ -1,0 +1,106 @@
+{
+    "resolution": [640, 480],
+    "useFresnel": true,
+    "AA": { "jitter": false, "samples": 2 },
+    "ambient": [0.3, 0.3, 0.3],
+    "camera": {
+        "position": [2.0, 3.0, 5.0],
+        "lookAt": [0.0, 1.5, 0.0],
+        "up": [0.0, 1.0, 0.0],
+        "fov": 45.0,
+        "focalLength": 5.4,
+        "aperture": 0.3,
+        "dofSamples": 0
+    },
+    "materials": [
+        {
+            "name": "red", "ID": 0, 
+            "diffuse": [1.0, 0.0, 0.0], 
+            "specular": [0.7, 0.7, 0.7], 
+            "reflectivity": 0.0,
+            "absorb": 0.0,
+            "transparency": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 100
+        },
+        {
+            "name": "glass", "ID": 1, 
+            "diffuse": [0.1, 0.1, 0.1], 
+            "specular": [0.2, 0.2, 0.2],
+            "reflectivity": 0.4,
+            "absorb": 0.0,
+            "transparency": 0.9,
+            "indexOfRefraction": 1.075,
+            "hardness": 100
+        },
+        {
+            "name": "black", "ID": 2, 
+            "diffuse": [0.0, 0.0, 0.0], 
+            "specular": [0.0, 0.0, 0.0], 
+            "reflectivity": 0.0,
+            "absorb": 0.0,
+            "transparency": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 0
+        },
+        {
+            "name": "white", "ID": 3, 
+            "diffuse": [1.0, 1.0, 1.0], 
+            "specular": [0.0, 0.0, 0.0], 
+            "reflectivity": 0.0,
+            "absorb": 0.0,
+            "transparency": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 0
+        }
+    ],    
+    "objects": [
+        {
+            "name": "plane", 
+            "type": "plane",
+            "normal": [0.0, 1.0, 0.0], 
+            "position": [0.0, 0.0, 0.0],
+            "materials": [2, 3]
+        },
+                {
+            "name": "sphere0",
+            "type": "sphere",
+            "radius": 1.2,
+            "position": [-0.5, 1.2, 0],
+            "materials": [1]
+        },
+        {
+            "name": "sphere1",
+            "type": "sphere",
+            "radius": 0.9,
+            "position": [0.0, 0.8, -2.25],
+            "materials": [0]
+        }
+    ],
+    "lights": [
+        {
+            "name": "light1", 
+            "type": "point",
+            "position": [-3.0, 8.0, 4.0], 
+            "colour": [1.0, 1.0, 1.0],
+            "attenuation": [1.0, 0.045, 0.0075],
+            "power": 0.5
+        },
+        {
+            "name": "light2", 
+            "type": "point",
+            "position": [5, 5, 4], 
+            "colour": [1.0, 1.0, 1.0],
+            "attenuation": [1.0, 0.045, 0.0075],
+            "power": 1
+        },
+        {
+            "name": "light2", 
+            "type": "point",
+            "position": [0, 3, 0], 
+            "colour": [1.0, 1.0, 1.0],
+            "attenuation": [1.0, 0.045, 0.0075],
+            "power": 1
+        }
+    ]
+}

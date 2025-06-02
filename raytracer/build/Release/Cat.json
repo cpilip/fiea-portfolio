@@ -1,0 +1,204 @@
+{
+    "resolution": [640, 480],
+    "useFresnel": true,
+    "AA": { "jitter": false, "samples": 2 },
+    "ambient": [0.3, 0.3, 0.3],
+    "camera": {
+        "position": [2.0, 3.0, 5.0],
+        "lookAt": [0.0, 1.5, 0.0],
+        "up": [0.0, 1.0, 0.0],
+        "fov": 45.0,
+        "focalLength": 5.2,
+        "aperture": 0.15,
+        "dofSamples": 30
+    },
+    "materials": [
+        {
+            "name": "red", "ID": 0, 
+            "diffuse": [1.0, 0.0, 0.0], 
+            "specular": [0.5, 0.5, 0.5], 
+            "reflectivity": 0.0,
+            "transparency": 0.0,
+            "absorb": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 5
+        },
+        {
+            "name": "metal", "ID": 1, 
+            "diffuse": [0.0, 0.0, 0.0], 
+            "specular": [0.1, 0.1, 0.1], 
+            "reflectivity": 1.0,
+            "transparency": 0.0,
+            "absorb": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 75
+        },
+        {
+            "name": "black", "ID": 2, 
+            "diffuse": [0.0, 0.0, 0.0], 
+            "specular": [0.0, 0.0, 0.0], 
+            "reflectivity": 0.0,
+            "transparency": 0.0,
+            "absorb": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 0
+        },
+        {
+            "name": "white", "ID": 3, 
+            "diffuse": [1.0, 1.0, 1.0], 
+            "specular": [0.0, 0.0, 0.0], 
+            "reflectivity": 0.0,
+            "transparency": 0.0,
+            "absorb": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 0
+        },
+        {
+            "name": "blue", "ID": 4, 
+            "diffuse": [0.0, 0.0, 1.0], 
+            "specular": [0.8, 0.8, 0.8],
+            "reflectivity": 0.0,
+            "transparency": 0.0,
+            "absorb": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 32
+        },
+        {
+            "name": "glass", "ID": 7, 
+            "diffuse": [0.1, 0.1, 0.1], 
+            "specular": [0.2, 0.2, 0.2],
+            "reflectivity": 0.1,
+            "transparency": 0.8,
+            "absorb": 0.0,
+            "indexOfRefraction": 1.075,
+            "hardness": 75
+        },
+        {
+            "name": "orange", "ID": 5, 
+            "diffuse": [1.0, 0.5, 0.0], 
+            "specular": [0.8, 0.8, 0.9],
+            "reflectivity": 0.0,
+            "transparency": 0.0,
+            "absorb": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 32
+        },
+        {
+            "name": "yellow", "ID": 6, 
+            "diffuse": [1.0, 1.0, 0.0], 
+            "specular": [0.8, 0.8, 0.9],
+            "reflectivity": 0.0,
+            "transparency": 0.0,
+            "absorb": 0.0,
+            "indexOfRefraction": 1.0,
+            "hardness": 32
+        },
+        {
+            "name": "beer", "ID": 8, 
+            "diffuse": [0.1, 0.2, 0.1], 
+            "specular": [0.2, 0.2, 0.2],
+            "reflectivity": 0.4,
+            "transparency": 0.9,
+            "absorb": 0.15,
+            "indexOfRefraction": 1.075,
+            "hardness": 75
+        }     
+    ],    
+    "objects": [
+        {
+            "name": "plane", 
+            "type": "plane",
+            "normal": [0.0, 1.0, 0.0], 
+            "position": [0.0, 0.0, 0.0],
+            "materials": [2, 3]
+        },
+        {
+            "name": "box",
+            "type": "box",
+            "size": [1.5, 1.5, 1.5],
+            "position": [1.2, 0.75, -2],
+            "materials": [4]
+        },        
+        {
+            "name": "sphere0",
+            "type": "sphere",
+            "radius": 0.9,
+            "position": [-1.8, 0.9, 0.55],
+            "materials": [1]
+        },
+        {
+            "name": "sphere1",
+            "type": "sphere",
+            "radius": 0.6,
+            "position": [1.75, 0.7, 0.25],
+            "materials": [7]
+        },
+        {
+            "name": "cat", "type": "mesh",
+            "filepath": "../../resources/objs/cat.obj",
+            "scale": 1.0, "position": [0.0, 0.0, 0.0],
+            "materials": [8]
+        },          
+        {
+            "name": "boxStack", "type": "node",
+            "position": [-4.5, 0.0, -4], "rotation": [0.0, 30.0, 0.0], "scale": [1.0, 1.0, 1.0],
+            "materials": [], "ref": "",
+            "children": [
+                {
+                    "name": "box1", "type": "node",
+                    "rotation": [0.0, 0.0, 0.0], "position": [0.0, 0.0, 0.0], "scale": [1.0, 1.0, 1.0],
+                    "materials": [], "ref": "",
+                    "children": [
+                        {
+                            "name": "box1", "type": "box",
+                            "materials": [0], 
+                            "min": [-1, 0, -1], "max": [1, 2, 1]
+                        },
+                        {
+                            "name": "box2", "type": "node",
+                            "rotation": [0.0, 12.0, 0.0], "position": [0.0, 2.0, 0.0], "scale": [0.5, 0.5, 0.5],
+                            "materials": [], "ref": "",
+                            "children": [
+                                {
+                                    "name": "box2", "type": "box",
+                                    "materials": [5], 
+                                    "min": [-1, 0, -1], "max": [1, 2, 1]
+                                },
+                                {
+                                    "name": "box3", "type": "node",
+                                    "rotation": [0.0, -15.0, 0.0], "position": [0.0, 2.0, 0.2], "scale": [0.5, 0.5, 0.5],
+                                    "materials": [], "ref": "",
+                                    "children": [
+                                        {
+                                            "name": "box3", "type": "box",
+                                            "materials": [6], 
+                                            "min": [-1, 0, -1], "max": [1, 2, 1]
+                                        }
+                                    ]
+                                }                                
+                            ]
+                        }
+                    ]
+                }
+            ]
+        } 
+    ],
+    "lights": [
+        {
+            "name": "light1", 
+            "type": "point",
+            "position": [-3.0, 8.0, 4.0], 
+            "colour": [1.0, 1.0, 1.0],
+            "attenuation": [1.0, 0.045, 0.0075],
+            "power": 0.5
+        },
+        {
+            "name": "light2", 
+            "type": "point",
+            "position": [5, 5, 4], 
+            "colour": [1.0, 1.0, 1.0],
+            "attenuation": [1.0, 0.045, 0.0075],
+            "power": 1
+        }
+    ]
+}
