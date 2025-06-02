@@ -11,7 +11,7 @@ C++ (using GLM for math). Sample framework for parsing scenes, loading models, a
 A raytracer built as the final project for a computer graphics course. Only basic raytracing, primitive intersection testing, and anti-aliasing was required; extra credit was awarded for other additions.
 - Also implemented reflection, refraction, Fresnel effect (using Schlick's approximation), depth of field.
 
-![](raytracer\build\Release\Cat.png)
+![](raytracer/build/Release/Cat.png)
 > A scene rendered with the raytracer.
 
 ## Shadowmaps
