@@ -20,7 +20,7 @@ C++ (using GLM for math, OpenGL, and GLSL shaders). Sample framework for loading
 A live demo of a scene with shadowmapped lighting for a computer graphics course; implements a trackball-like control scheme for panning around, and drawing from a shadow map texture. 
 - Also implemented perceptually-correct soft shadows.
 
-![](shadowmaps\shadowmaps.mp4)
+![](shadowmaps/shadowmaps.mp4)
 > The demo running - follow the shadows!
 
 ## Pathfinding Simulation
@@ -31,8 +31,8 @@ A simulation built for a computer games course showing multiple agents ("NPCs") 
 - The heuristic used for the algorithm is octile distance between nodes.
 - The ”open set” of nodes during pathfinding is optimized by using an abridged priority queue backed by a min-heap.
 
-![](pathfinding\pathfinding.mp4)
-![](pathfinding\data.png)
+![](pathfinding/pathfinding.mp4)
+![](pathfinding/data.png)
 > Fun observations about the simulation's performance.
 
 ## Colt Express
@@ -46,8 +46,8 @@ An event-based messaging API I built for [Colt Express](https://github.com/cpili
 - Since I was in charge of a lot of the user interface, I designed the API to be extremely easy to use and extensible - only one function needed to be called to send almost any data through the API, and the API handler relied only needed an event "name" to pass to the appropriate listener. A custom listener could then be implemented for any game event or UI element.
 - Unfortunately, the lobby service and server are down, making the game no longer playable.
 
-![](colt-express\userinterface.png)
-![](colt-express\deliverable.png)
+![](colt-express/userinterface.png)
+![](colt-express/deliverable.png)
 > A mockup of our UI and the messaging system output during our final demo.
 
 # Professional Work
@@ -61,7 +61,6 @@ At the moment, I'm a part-time software developer on a research project using GI
 I also helped several students understand the basics of C++ as an undergraduate teaching assistant at McGill University.
 
 # Final Comments
-
 
 Thank you for viewing my portfolio. If you have further questions, please feel free to contact me!
 
