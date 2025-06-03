@@ -53,7 +53,7 @@ An event-based messaging API I built for [Colt Express](https://github.com/cpili
 
 # Final Comments
 
-Most of my professional work has been in the real-time geospatial data space, which I unfortunately can't provide professional code samples for. Most of it has been C++ based, with some Python.
+Most of my professional work has been in the real-time geospatial data space, which I unfortunately can't provide code samples for. Most of it has been C++ based, with some Python.
 
 Thank you for viewing my portfolio. If you have further questions, please feel free to contact me.
 
