@@ -51,21 +51,12 @@ An event-based messaging API I built for [Colt Express](https://github.com/cpili
 ![](colt-express/deliverable.png)
 > A mockup of our UI and the messaging system output during our final demo.
 
-# Professional Work
-
-Most of my professional work has been in the real-time geospatial data space. I can't provide professional code samples, but here's what I've worked on.
-
-I created initial proof-of-concepts to integrate USD (for use with NVIDIA Omniverse's platform and Unreal Engine 5) with Presagis's [VELOCITY 5D](https://www.youtube.com/watch?v=IMuxpx0cOGk) at CAE. Think something along the lines of [these third party connectors](https://docs.omniverse.nvidia.com/connect/latest/3rd-party-connectors.html). This was a C++ based role. 
-
-At the moment, I'm a part-time software developer on a research project using GIS‐enabled historiography to reconstruct and analyze historical travel routes to identify where Attila the Hun (yes, that [Attila the Hun](https://en.wikipedia.org/wiki/Attila)) might have been buried. Think something along the lines of this [paper](https://doi.org/10.1111/tgis.13056). The future goal is to present the findings as an interactive webmap and real-time simulation using Unreal Engine 5.
-
-I also helped several students understand the basics of C++ as an undergraduate teaching assistant at McGill University.
-
 # Final Comments
 
-Thank you for viewing my portfolio. If you have further questions, please feel free to contact me!
+Most of my professional work has been in the real-time geospatial data space, which I unfortunately can't provide professional code samples for. Most of it has been C++ based, with some Python.
+Thank you for viewing my portfolio. If you have further questions, please feel free to contact me.
 
-For other (less technical) projects, here are some games I've helped make over the years.
+For other (less technical, but still interesting) projects, here are some games I've helped make over the years.
 - On [All Rat Remains](https://ethearian.itch.io/all-rat-remains) for McGameJam 2023, I wrote a maze generator for the rat to navigate between puzzles.
 - On [re/start](https://ethearian.itch.io/restart) for McGameJam 2025, I was the narrative writer and level designer. 
 - On [The Last Braincells](https://ethearian.artstation.com/projects/r9P1e5) for Ubisoft's Game Lab Competition, I was a level designer.
