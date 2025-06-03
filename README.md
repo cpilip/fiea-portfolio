@@ -21,7 +21,7 @@ A live demo of a scene with shadowmapped lighting for a computer graphics course
 - Also implemented perceptually-correct soft shadows.
 
 https://github.com/user-attachments/assets/87a5f7ca-5f94-45b8-bd0b-fcc95f8565c7
-> The demo running - follow the shadows!
+> The demo running - observe the shadows.
 
 ## 3. Pathfinding Simulation
 C# in Unity. Everything is my own.
