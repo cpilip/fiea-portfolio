@@ -6,6 +6,7 @@ This project can be compiled. Add GLM, GLFW, and GLEW libraries from `\libs` to 
 - Set `GLEW_DIR` to `/path/to/GLEW`
 
 An executable can be found under `build`. This was made by generating a Visual Studio solution (Visual Studio 17 2022) on Windows using CMake with the following command, then compiling using the solution.
+
 `cmake -S . -B build`
 
 The raytracer can be run using the following arguments.
