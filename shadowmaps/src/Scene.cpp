@@ -134,7 +134,6 @@ void Scene::renderFloor(const shared_ptr<Program> program, glm::mat4 P, glm::mat
 }
 
 void Scene::setUniforms(const shared_ptr<Program> program, glm::mat4 P, glm::mat4 V, shared_ptr <MatrixStack> M, glm::mat4 LightPV) {
-	//TODO: compute light position of lightCam
 	glm::vec4 p(1);
 
 	//storing uniform variables
